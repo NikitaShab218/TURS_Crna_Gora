@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+img{
+    height: 50px;
+    width: auto;
+}
+.header_up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color: rgba(112, 187, 105, 1);
+    height: min-content;
+}
+.logo{
+    width: 70px;
+    height: auto;
+}
+header>*{
+    display: inline-block;
+    width: 450px;
+}
+.pustota{
+    width: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.pustota{
+    width: 8%;
+}
+.h1_up{
+    padding-left: 5%;
+    font-size: 20px;
+}
+.article_middle{
+    background-image: url(assets/article-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.h1_article{
+    font-size: 100px;
+    color:rgb(84, 9, 160);
+    padding-left: 5%;
+    padding-top: 70px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 900;
+}
+.h1_article_2{
+    font-size: 100px;
+    color:rgb(84, 9, 160);
+    padding-left: 5%;
+    padding-bottom: 200px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 900;
+}
+.pustota_1{
+    margin: 30px;
+}
+.razryv{
+    background-color: blueviolet;
+    height: 40px;
+}
+.article_2{
+    background-image: url(assets/article\(1\)\ \(1\).png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 300px;
+    height: auto;
+}
+.article_end{
+    background-color: rgba(170, 31, 31, 0.53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div_end{
+    padding-top: 60px;
+    padding-left: 20px;
+    min-height: 30px;
+}
+.div_img{
+    display: flex;
+    align-items: center;
+}
+.div_img_2{
+    height: 80px;
+    width: auto;
+}
+.h1_h2_end{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+.div_img_1{
+    height: 60px;
+    width: auto;
+}
