@@ -79,6 +79,7 @@ a{
     padding-bottom: 150px;
     width: 300px;
     height: auto;
+    animation: header_up_img 5s infinite;
 }
 .article_end{
     background-color: rgba(170, 31, 31, 0.53);
@@ -107,4 +108,41 @@ a{
 .div_img_1{
     height: 60px;
     width: auto;
+}
+.header_up a:hover{
+    color:rgb(255, 255, 255);
+    animation: header_first_a 2s infinite;
+    display: inline-block;
+}
+@keyframes header_first_a {
+    0% {
+        transform: rotate(5deg) scale(1);
+    }
+    50% {
+        transform: rotate(-5deg) scale(1.05);
+    }
+    100% {
+        transform: rotate(5deg) scale(1);
+    }
+}
+.header_up{
+    font-weight: bold;
+}
+.div_img a{
+    animation: header_up_img 5s infinite alternate;
+    display: inline-block;
+}
+@keyframes header_up_img{
+    0% {
+       transform: rotate(1deg), translate(10px);
+    }
+    50%{
+        transform: rotate(2), translate(50px);
+    }
+    100%{
+        transform: rotate(360deg), translate(0px) scale(1);
+    }
+}
+.q:hover{
+    animation: header_up_img 5s infinite;
 }
